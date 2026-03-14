@@ -1,4 +1,10 @@
-"scripts": {
-  "start": "node server/server.js",
-  "build": "cd client && npm install && npm run build"
+{
+  "name": "portfolio-gowtham",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd client && npm install && npm run build"
+  }
 }
