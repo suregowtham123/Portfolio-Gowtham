@@ -1,0 +1,49 @@
+/* CARD DESIGN */
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:12px;
+text-align:center;
+color:white;
+transition:all 0.3s ease;
+border:1px solid rgba(255,255,255,0.05);
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+
+/* PROJECT CARD */
+
+.project-card{
+background:#111827;
+padding:25px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.project-card a{
+color:#38bdf8;
+font-weight:600;
+text-decoration:none;
+}
+
+/* CERTIFICATE IMAGE */
+
+.cert-img{
+width:100%;
+border-radius:10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.cert-img:hover{
+transform:scale(1.05);
+}
