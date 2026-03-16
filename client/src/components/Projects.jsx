@@ -7,7 +7,7 @@ const [projects,setProjects]=useState([]);
 
 useEffect(()=>{
 
-axios.get("http://localhost:5000/api/projects")
+axios.get("https://portfolio-gowtham.onrender.com/api/projects")
 .then(res=>setProjects(res.data));
 
 },[]);
