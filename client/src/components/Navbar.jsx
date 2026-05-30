@@ -4,6 +4,7 @@ function Navbar() {
 
 const links = [
 "about",
+"education",
 "skills",
 "projects",
 "achievements",
