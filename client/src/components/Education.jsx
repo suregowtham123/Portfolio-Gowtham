@@ -6,21 +6,21 @@ const education = [
 {
 degree: "B.Tech Computer Science and Engineering",
 institution: "VIT Chennai",
-duration: "2021 - 2025",
+duration: "2022 - 2026",
 description:
 "Graduated in Computer Science and Engineering with a strong foundation in software development, artificial intelligence, machine learning, cloud computing, and full-stack web development."
 },
 {
 degree: "Higher Secondary Education (Class XII)",
-institution: "Your School Name",
-duration: "2019 - 2021",
+institution: "Narayana junior collage",
+duration: "2020 - 2022",
 description:
 "Completed higher secondary education with focus on Mathematics, Physics, and Computer Science."
 },
 {
 degree: "Secondary Education (Class X)",
-institution: "Your School Name",
-duration: "2018 - 2019",
+institution: "Ratnam High School",
+duration: "2019 - 2020",
 description:
 "Completed secondary education with excellent academic performance."
 }
@@ -30,7 +30,7 @@ return (
 <section id="education" className="section">
 
 <h2 className="section-title">
-Education <span>Journey</span>
+ <span>Education Journey</span>
 </h2>
 
 <div className="education-container">
